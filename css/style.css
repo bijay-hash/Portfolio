@@ -255,8 +255,6 @@ input,textarea,select{
     position: fixed;
     left: 300px;
     top: 20px;
-    /*display: -ms-flexbox;
-    display: flex;*/
     display: none;
     -ms-flex-align: center;
     align-items: center;
@@ -1103,9 +1101,11 @@ body.dark .shadow-dark{
         display: -ms-flexbox;
         display: flex;
         left: 30px;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
     }
     .aside .nav-toggler.open{
-        left: 300px;
+        left: 250px;
     }
     .aside{
         left: -270px;
