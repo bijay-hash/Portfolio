@@ -564,7 +564,63 @@ input,textarea,select{
     color: #504e70;
     margin: 0;
 }
-
+.about .about-content .des-item{
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: -ms-flexbox;
+    display: flex;
+}
+.about .about-content .des-item .des-item-inner{
+    background-color: #fdf9ff;
+    border: 1px solid #d4d4e3;
+    border-radius: 10px;
+    padding: 30px 15px;
+    text-align: center;
+    width: 100%;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.about .about-content .des-item .des-item-inner:hover{
+    -webkit-box-shadow: 0 0 20px rgba(48,46,77,0.15);
+    box-shadow: 0 0 20px rgba(48,46,77,0.15);
+}
+.about .about-content .des-item .des-item-inner .icon{
+    height: 60px;
+    width: 60px;
+    /*background-color: red;*/ 
+    display: block;
+    margin: 0 auto 30px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.about .about-content .des-item .des-item-inner .icon .fa{
+    font-size: 40px;
+    line-height: 60px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.about .about-content .des-item .des-item-inner:hover .icon .fa{
+    font-size: 25px;
+    color: #ffffff;  
+}
+.about .about-content .des-item .des-item-inner h4{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #302e4d;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.about .about-content .des-item .des-item-inner p{
+    font-size: 16px;
+    color: #504e70;
+    line-height: 25px;
+    margin: 0;
+}
 
 /* Service Section */
 
@@ -1033,6 +1089,8 @@ body.dark .section{
     background-color: #151515;
 }
 
+
+body.dark .about .about-content .des-item .des-item-inner,
 body.dark .contact-form .form-item .form-control,
 body.dark .blog .blog-item-inner .blog-info,
 body.dark .portfolio .portfolio-item-inner,
@@ -1045,6 +1103,7 @@ body.dark .aside{
 body.dark .contact .contact-info-item h4,
 body.dark .blog .blog-item-inner .blog-info .blog-title,
 body.dark .portfolio .portfolio-filter button,
+body.dark .about .about-content .des-item .des-item-inner h4,
 body.dark .service .service-item .service-item-inner h4,
 body.dark .about .about-content .timeline .timeline-title,
 body.dark .about .about-content h3.title,
@@ -1062,6 +1121,7 @@ body.dark .contact-form .form-item .form-control,
 body.dark .contact .contact-info-item p,
 body.dark .blog .blog-item-inner .blog-info .blog-tags,
 body.dark .blog .blog-item-inner .blog-info .blog-description,
+body.dark .about .about-content .des-item .des-item-inner p,
 body.dark .service .service-item .service-item-inner p,
 body.dark .about .about-content .timeline .timeline-text,
 body.dark .about .about-content .timeline .timeline-date,
@@ -1076,6 +1136,7 @@ body.dark .aside,
 body.dark .contact-form .form-item .form-control,
 body.dark .blog .blog-item-inner,
 body.dark .portfolio .portfolio-item-inner,
+body.dark .about .about-content .des-item .des-item-inner,
 body.dark .service .service-item .service-item-inner,
 body.dark .about .about-content .timeline,
 body.dark .about .about-content .personal-info .info-item p,
@@ -1125,6 +1186,7 @@ body.dark .shadow-dark{
     }
 }
 @media (max-width: 991px){
+    .about .about-content .des-item,
     .blog .blog-item,
     .portfolio .portfolio-item,
     .service .service-item{
@@ -1134,6 +1196,7 @@ body.dark .shadow-dark{
     }
 }
 @media (max-width: 767px){
+    .about .about-content .des-item,
     .contact .contact-form .col-6,
     .blog .blog-item,
     .service .service-item,

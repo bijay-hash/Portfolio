@@ -89,7 +89,6 @@ function updateNav(element){
     }
 }
 
-
 document.querySelector(".hire-me").addEventListener("click",function(){
     const sectionIndex = this.getAttribute("data-section-index");
     showSection(this);

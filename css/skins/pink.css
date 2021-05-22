@@ -16,6 +16,7 @@
 .lightbox .lightbox-controls .next-item .fa,
 .portfolio .portfolio-item .portfolio-info .icon .fa,
 .portfolio .portfolio-filter button.active,
+.about .about-content .des-item .des-item-inner .icon,
 .service .service-item .service-item-inner .icon,
 .home .intro p span,
 .about .about-content .about-text h3 span,
@@ -27,6 +28,7 @@ body.dark .aside .nav li a.active,
 }
 
 .blog .blog-item-inner .blog-img .blog-date,
+.about .about-content .des-item .des-item-inner:hover .icon,
 .service .service-item .service-item-inner:hover .icon,
 .about .about-content .timeline .circle-dot,
 .about .about-content .timeline .timeline-item::before,
